@@ -3,7 +3,7 @@ import type { DialogueLine } from "./trumpets/types";
 /**
  * SEVEN TRUMPETS — VERBATIM SCRIPT (already recorded for voice-over).
  *
- * Transcribed word-for-word from the approved script document
+ * Transcribed word-for-word from the final approved script document
  * ("السبع أبواق - النص الكامل للمسرحية / السكريبت", مدرسة الكتاب المقدس).
  * The Arabic text is split into shorter dialogue turns for on-screen
  * pacing, but every turn's Arabic text is copied verbatim from the
@@ -41,21 +41,17 @@ export const openingScript: DialogueLine[] = [
     text: {
       ar:
         "كل اللي هتشوفه او هتسمعه هنا مرتبط بحدث واحد , حدث لسة مبدأش بس مكتوب من زمن بعيد جدا , " +
-        "هتسمع اصوات وهتشوف علامات , اظن انك عارف ان عندنا سبع ابواق بس اللي متعرفوش ان محدش هيفهم البوق الاول , " +
-        "غير اللي فهم البوق الاول , ومطلوب التركيز لان في كلمات بعد ما تسمعها وتفهمها مش هترجع زي ما كانت قبل ما تسمعها ! " +
+        "هتسمع اصوات وهتشوف علامات , اظن انك عارف ان عندنا سبع ابواق , بس اللي متعرفوش ان محدش هيفهم البوق السابع , " +
+        "غير اللي فهم البوق الاول , ومطلوب التركيز لان في كلمات بعد ما تسمعها وتفهمها مش هترجع زي مكانت قبل ما تسمعها ! " +
         "حافظ علي نفسك لان مفيش اكتر من العوائق, اللي لو وقعت فواحد منها حياتك هتنتهي ! " +
         "اشوفك في النهاية يا بطل...... " +
-        "يختفي الراوي وتظهر سبع ابواب عملاقة ورا كل باب هيبقى في ملاك يحكي قصة البوق وبعد ما يحكي ويخلص هيدي الشخصية الاساسية مفتاح الباب اللي بعدو , " +
-        "ويحذروا من تنفيذ التحذير اللي اتحكاله والا هيسمع صوت البوق ودي هتبقى علامة خطيرة " +
         "البوابة الاولى :",
       en:
         "Everything you're about to see or hear here is tied to one event — an event that hasn't begun yet, but was written long, long ago, " +
-        "you'll hear voices and see signs. I think you already know we have seven trumpets — but what you don't know is that no one truly understands the first trumpet, " +
-        "except the one who has understood the first trumpet. Stay focused — there are words that, once you hear and understand them, you can never go back to who you were before hearing them! " +
+        "you'll hear voices and see signs. I think you already know we have seven trumpets — but what you don't know is that no one will understand the seventh trumpet, " +
+        "except the one who has understood the first. Stay focused — there are words that, once you hear and understand them, you can never go back to who you were before hearing them! " +
         "Guard yourself — there is nothing but obstacles ahead, and if you fall into even one of them, your life will end! " +
         "See you at the end, hero...... " +
-        "The Narrator vanishes, and seven giant doors appear. Behind each door stands an angel who will tell the story of that trumpet — and once he finishes, he hands the main character the key to the next door, " +
-        "warning her not to ignore what she's been told — or she will hear the sound of the trumpet, which will be a dangerous sign. " +
         "The First Gate:",
     },
   },
@@ -75,16 +71,16 @@ const trumpet1: TrumpetScript = {
       audioSrc: ["/audio/doors/door1-angel.wav"],
       text: {
         ar:
-          "بوقي مش بيجي منغير اثر, اللي كان اخضر اتحرق, حاجتين ميتجمعوش اتحلوا مع بعض لهجوم قاسي, " +
-          "هشرح واحدة واحدة واهم حاجة متستعجلش...............عشان متخسرش كل حاجة ! " +
-          "الحاجتين هما النار و البرد البرد هو بخار المتجمد تجمع علي شكل كورات تلج ويبشير لقوة التأديب, " +
-          "اما النار فهي اشارة لشدة غضب الله , البرد والنار كونا الهجوم القاسي اللي اول ما هيضرب الارض تلت الاشجار وكل عشب الارض هيتحرقوا, " +
+          "بوقي مش بيجي منغير اثر, اللي كان اخضر اتحرق , حاجتين ميتجمعوش اتحولوا مع بعض لهجوم قاسي , طبعا مش فاهم , " +
+          "هشرح واحدة واحدة واهم حاجة متستعجلش..............عشان متخسرش كل حاجة ! " +
+          "الحاجتين هما النار و البرد البرد هو بخار المتجمد تجمع على شكل كورات تلج وبيشير لقوة التأديب, " +
+          "اما النار فهي اشارة لشدة غضب الله , البرد والنار كونوا الهجوم القاسي اللي اول ما هيضرب الارض تلت الاشجار وكل عشب الارض هيتحرقوا, " +
           "والهدف من التأديب ده إذلال المتكبرين علشان تتحقق نبوة اشعياء " +
           '" فإن لرب الجنود يوما علي كل متعظم وعال , وعلي كل مرتفع فيوضع , وعلي كل ارز لبنان العالي المرتفع ,وعلي كل بلوط باشان" ' +
           "اظن انت جاهز تاخد مفتاح الباب التاني دلوقتي , خد بالك من اللي جاي",
         en:
-          "My trumpet never comes without a trace — what was green is burned. Two things that don't normally mix came together for a harsh attack, " +
-          "I'll explain them one by one — and most importantly, don't rush............... or you'll lose everything! " +
+          "My trumpet never comes without a trace — what was green is burned. Two things that don't normally mix came together for a harsh attack. " +
+          "Of course, you don't understand — I'll explain them one by one, and most importantly, don't rush.............. or you'll lose everything! " +
           "The two things are fire and hail. Hail is frozen vapor gathered into balls of ice, a sign of the power of discipline, " +
           "while fire is a sign of the intensity of God's anger. Together, hail and fire form the harsh attack — the moment it strikes the earth, a third of the trees and all the earth's grass will burn, " +
           "and the purpose of this discipline is to humble the arrogant, so that Isaiah's prophecy comes true: " +
@@ -102,13 +98,6 @@ const trumpet1: TrumpetScript = {
 const trumpet2: TrumpetScript = {
   intro: [
     {
-      speaker: "narrator",
-      text: {
-        ar: "تطلع الشخصية من الباب الاول ويدخل الباب التاني",
-        en: "The character exits the first door and enters the second door.",
-      },
-    },
-    {
       // Merged: door2-angel-part1.wav covers this pair, up to where the
       // girl interrupts.
       speaker: "angel",
@@ -116,8 +105,8 @@ const trumpet2: TrumpetScript = {
       audioSrc: ["/audio/doors/door2-angel-part1.wav"],
       text: {
         ar:
-          "البوق ده مش جاي بنار من الارض زي البوق الاول,شئ عظيم مولع بالنار اتدمر ووقع في البحر وأخل بالبحر وبكل حاجة فيه , " +
-          "تقدر هنا تتكلم وتسأل عشان تعرف كل معلومة تقدر تساعدك في الطريق",
+          "البوق ده مش جاي بنار من الارض زي البوق الاول,شئ عظيم مولع بالنار اتدمر ووقع في البحر واخل بالبحر وبكل حاجة فيه , " +
+          "تقدري هنا تتكلمي وتسألي عشان تعرفي كل معلومة تقدر تساعدك في الطريق",
         en:
           "This trumpet doesn't bring fire from the earth like the first trumpet — something great, burning with fire, was destroyed and fell into the sea, disturbing the sea and everything in it, " +
           "you're free to speak and ask here, so you can learn anything that might help you along the way.",
@@ -138,15 +127,15 @@ const trumpet2: TrumpetScript = {
       audioSrc: ["/audio/doors/door2-angel-part2.wav"],
       text: {
         ar:
-          "حقيقي ابهرتني , شكلك شخصية ذكية , " +
-          "هو فعلا جبل متقد بالنار و بتشير لقائد عسكري دموي هيعمل حرب في العالم وهيقتل تلت العالم " +
+          "حقيقي ابهرتيني , شكلك شخصية ذكية , " +
+          "هو فعلا جبل متقد بالنار و بيشير لقائد عسكري دموي هيعمل حرب في العالم وهيقتل تلت العالم " +
           "والبحر بيشير للنفوس المضطربة وربنا سمح بالجبل ده انه ينزل فوسط المضطربين ويقتل تلتهم بس عشان يسيب فرصة للباقي يتوبوا ويرجعوله , " +
-          "عجبتني بذكائك ركز علي نفسك , اللي من صعب تحمله !",
+          "عجبتيني بذكائك ركزي وحافظي علي نفسك , سلام",
         en:
           "You really impressed me — you seem like a smart one, " +
           "it really is a mountain burning with fire, pointing to a bloodthirsty military leader who will wage war on the world and kill a third of it, " +
           "and the sea points to troubled souls. God allowed this mountain to fall among the troubled and kill a third of them, only so the rest would have a chance to repent and return to Him, " +
-          "I like how sharp you are — focus, keep hold of yourself, what's coming is hard to bear!",
+          "I like how sharp you are — stay focused, and take care of yourself. Peace.",
       },
     },
   ],
@@ -158,25 +147,21 @@ const trumpet2: TrumpetScript = {
 // ---------------------------------------------------------------------
 const trumpet3: TrumpetScript = {
   intro: [
-    {
-      speaker: "narrator",
-      text: {
-        ar: "يخرج من الباب التاني ويدخل الباب التالت ولا يجد احد ويبد بالنداء",
-        en: "She leaves the second door and enters the third — finding no one there, she begins to call out.",
-      },
-    },
     { speaker: "girl", text: { ar: "في حد هنا ؟", en: "Is anyone here?" } },
     {
       // door3-angel-part1.wav
       speaker: "angel",
       speakerLabel: angelLabel("الملاك الثالث", "The Third Angel"),
       audioSrc: ["/audio/doors/door3-angel-part1.wav"],
-      text: { ar: "انت مين ؟ وقدرت تدخل بابي ازاي؟", en: "Who are you? And how did you manage to get through my door?" },
+      text: {
+        ar: "انتي مين ؟ وقدرتي تدخلي بابي ازاي؟",
+        en: "Who are you? And how did you manage to get through my door?",
+      },
     },
     {
       speaker: "girl",
       text: {
-        ar: "انا حد عدي من البرد والنار والجيل المتقد",
+        ar: "انا حد عدي من البرد والنار والجبل المتقد",
         en: "I'm someone who made it past the hail, the fire, and the burning mountain.",
       },
     },
@@ -186,8 +171,8 @@ const trumpet3: TrumpetScript = {
       speakerLabel: angelLabel("الملاك الثالث", "The Third Angel"),
       audioSrc: ["/audio/doors/door3-angel-part2.wav"],
       text: {
-        ar: "واضح انك ذكي عشان تعدي دول , بس كل دول مش زي دول بوقي مضئ اسمه الافسنتين, لوث المياه وموت ناس كتير اوي",
-        en: "Clearly you're clever to have gotten past those — but none of that compares to this. My trumpet has a burning star called Wormwood, which pollutes the waters and kills a great many people.",
+        ar: "واضح انك ذكية عشان تعدي دول , بس كل دول مش زي بوقي , شئ عظيم مضئ اسمه الافسنتين, لوث المياه وموت ناس كتير اوي",
+        en: "Clearly you're clever to have gotten past those — but none of that compares to my trumpet. Something great and shining, called Wormwood, polluted the waters and killed a great many people.",
       },
     },
     {
@@ -201,7 +186,7 @@ const trumpet3: TrumpetScript = {
       cue: "watch",
       audioSrc: ["/audio/doors/door3-angel-part3.wav"],
       text: {
-        ar: "واضح انك ذكي فعلا , اه الافسنتين نبات مر , بس عشان نفهم ايه المقصود بيه محتاجين نقرأ رؤيا 8 عدد 10 و11",
+        ar: "واضح انك ذكية فعلا , اه الافسنتين نبات مر , بس عشان نفهم ايه المقصود بيه محتاجين نقرأ رؤيا 8 عدد 10 و11",
         en: "You really are clever — yes, Wormwood is a bitter plant. But to understand what's meant by it, we need to read Revelation chapter 8, verses 10 and 11.",
       },
     },
@@ -215,13 +200,13 @@ const trumpet3: TrumpetScript = {
       text: {
         ar:
           "وقوع الكوكب ده اشارة للتأديب المر والكوكب نفسه اشارة لشخصيات دينية كتير هيسقطوا ويحاولوا يفسدوا التعليم زي أريوس ونسطور فهيسمموا الانهار ويمرروها وهتموت ناس كتير اوي , " +
-          "اي حاجة تاني محتاج تعرفها؟",
+          "في حاجة تانية محتاجة تعرفيها؟",
         en:
           "This star falling is a sign of bitter discipline, and the star itself points to many religious figures who will fall and try to corrupt the teaching — like Arius and Nestorius — poisoning the rivers and making them bitter, and a great many people will die, " +
-          "Anything else you need to know?",
+          "Is there anything else you need to know?",
       },
     },
-    { speaker: "girl", text: { ar: "لا تمام كدة", en: "No, that's clear." } },
+    { speaker: "girl", text: { ar: "لا تمام كدة, شكرا", en: "No, that's clear. Thank you." } },
     {
       // door3-angel-part5.wav
       speaker: "angel",
@@ -229,8 +214,8 @@ const trumpet3: TrumpetScript = {
       cue: "watch",
       audioSrc: ["/audio/doors/door3-angel-part5.wav"],
       text: {
-        ar: "خد مفتاح الباب الرابع",
-        en: "Take the key of the fourth door.",
+        ar: "المفتاح الرابع اهو , يلا اتفضل من هنا",
+        en: "Here's the fourth key. Go ahead, this way.",
       },
     },
   ],
@@ -242,10 +227,6 @@ const trumpet3: TrumpetScript = {
 const trumpet4: TrumpetScript = {
   intro: [
     {
-      speaker: "narrator",
-      text: { ar: "يطلع من الباب التالت ويدخل الباب الرابع", en: "She leaves the third door and enters the fourth." },
-    },
-    {
       speaker: "angel",
       speakerLabel: angelLabel("الملاك الرابع", "The Fourth Angel"),
       text: {
@@ -255,7 +236,10 @@ const trumpet4: TrumpetScript = {
     },
     {
       speaker: "girl",
-      text: { ar: "ليه ؟ هو بوقك هيعمل ايه في السماء ؟", en: "Why? What will your trumpet do to the sky?" },
+      text: {
+        ar: "ليه ؟ هو بوقك هيعمل ايه في السماء ؟",
+        en: "Why? What will your trumpet do to the sky?",
+      },
     },
     {
       speaker: "angel",
@@ -266,19 +250,16 @@ const trumpet4: TrumpetScript = {
   ],
   closing: [
     {
+      // Merged: combines the two "the sky darkens" turns into one continuous beat.
       speaker: "angel",
       speakerLabel: angelLabel("الملاك الرابع", "The Fourth Angel"),
       text: {
-        ar: "اعتقد انك مشفتش إنذار بالخطورة دي قبل كدة , الشمس والقمر ثلثهم وبالتالي الظلام هيزيد ,",
-        en: "I don't think you've seen a warning this severe before — a third of the sun and moon are struck, so darkness will increase,",
-      },
-    },
-    {
-      speaker: "angel",
-      speakerLabel: angelLabel("الملاك الرابع", "The Fourth Angel"),
-      text: {
-        ar: "والظلام بيشل حركة الانسان خصوصا لو زادت مدته , بيفقد الانسان نشاطه وهيمنع نمو النباتات",
-        en: "and darkness cripples human activity, especially the longer it lasts — a person loses their energy, and it stops plants from growing.",
+        ar:
+          "اعتقد انك مشفتيش إنذار بالخطورة دي قبل كدة , الشمس والقمر ثلثهم هيضرب وبالتالي الظلام هيزيد , " +
+          "والظلام بيشل حركة الانسان خصوصا لو زادت مدته , بيفقد الانسان نشاطه وهيمنع نمو النباتات",
+        en:
+          "I don't think you've seen a warning this severe before — a third of the sun and moon will be struck, so darkness will increase, " +
+          "and darkness cripples human activity, especially the longer it lasts — a person loses their energy, and it stops plants from growing.",
       },
     },
     {
@@ -286,25 +267,17 @@ const trumpet4: TrumpetScript = {
       text: { ar: "طب ما كدة ده تعذيب للبشر", en: "But isn't that torture for humanity?" },
     },
     {
-      speaker: "angel",
-      speakerLabel: angelLabel("الملاك الرابع", "The Fourth Angel"),
-      text: { ar: "هي صحيح تبان كدة , لكن مش ده الغرض ,", en: "It really does look that way — but that's not the purpose." },
-    },
-    {
-      speaker: "angel",
-      speakerLabel: angelLabel("الملاك الرابع", "The Fourth Angel"),
-      text: {
-        ar: "المقصود م ده كله ان الانسان يفوق لنفسه ويرجع للحق ويرجع يدور علي النور الحقيقي اللي هو ربنا ,",
-        en: "The point of all of it is for a person to wake up to themselves, return to the truth, and go back to searching for the real light — which is God,",
-      },
-    },
-    {
+      // Merged: combines the closing three turns (purpose / key hand-off) into one continuous beat.
       speaker: "angel",
       speakerLabel: angelLabel("الملاك الرابع", "The Fourth Angel"),
       cue: "watch",
       text: {
-        ar: "كدة انا جاوبتك , المفتاح الخامس اهو , وخد بالك اوي من باقي الطريق , سلام",
-        en: "There, I've answered you. Here's the fifth key — and be very careful for the rest of the way. Peace.",
+        ar:
+          "هي صحيح تبان كدة , لكن مش ده الغرض , المقصود من ده كله ان الانسان يفوق لنفسه ويرجع للحق ويرجع يدور علي النور الحقيقي اللي هو ربنا , " +
+          "كدة انا جاوبتك , المفتاح الخامس اهو , وخد بالك اوي من باقي الطريق , سلام",
+        en:
+          "It really does look that way, but that's not the purpose. The point of all of it is for a person to wake up to themselves, return to the truth, and go back to searching for the real light — which is God, " +
+          "There, I've answered you. Here's the fifth key — and be very careful for the rest of the way. Peace.",
       },
     },
   ],
@@ -315,12 +288,11 @@ const trumpet4: TrumpetScript = {
 // ---------------------------------------------------------------------
 const trumpet5: TrumpetScript = {
   intro: [
-    { speaker: "narrator", text: { ar: "يدخل الباب الخامس", en: "She enters the fifth door." } },
     {
       speaker: "angel",
       speakerLabel: angelLabel("الملاك الخامس", "The Fifth Angel"),
       text: {
-        ar: "نادرا ما حد بيوصل هنا , بس بما انك وصلت هنا قوليلي تعرفي ايه عن الويل الاول",
+        ar: "نادرا ما حد بيوصل هنا , بس بما انك وصلتي هنا قوليلي ,تعرفي ايه عن الويل الاول",
         en: "Rarely does anyone make it here — but since you have, tell me: what do you know about the first woe?",
       },
     },
@@ -343,68 +315,26 @@ const trumpet5: TrumpetScript = {
   ],
   closing: [
     {
-      speaker: "angel",
-      speakerLabel: angelLabel("الملاك الخامس", "The Fifth Angel"),
-      text: {
-        ar: "في بعض التفاسير سقوط الكوكب ده اشارة لانتكاسة هتحصل لشخصية دينية مركزها كبير ,",
-        en: "In some interpretations, this star's fall is a sign of a downfall that will happen to a major religious figure,",
-      },
-    },
-    {
-      speaker: "angel",
-      speakerLabel: angelLabel("الملاك الخامس", "The Fifth Angel"),
-      text: {
-        ar: "و ده اللي هيفتح بئر الجحيم وهيملى العالم بدخان الشياطين اللي هي افكارهم وعشان تفهمي خطورة الجراد المجهزة للحرب وهيكون بوجه بشر ,",
-        en: "and it's what opens the pit of the abyss and fills the world with the smoke of demons, which are their ideas. So you understand the danger of the locusts prepared for war — they'll have the face of a man,",
-      },
-    },
-    {
-      speaker: "angel",
-      speakerLabel: angelLabel("الملاك الخامس", "The Fifth Angel"),
-      text: {
-        ar: "اما السلطان اللي هيكون عند الجراد ده هتكون شكلها جميل وعندها شعر زي شعر النساء ,",
-        en: "and the power these locusts hold — their shape will be beautiful, and they'll have hair like the hair of women,",
-      },
-    },
-    {
-      speaker: "angel",
-      speakerLabel: angelLabel("الملاك الخامس", "The Fifth Angel"),
-      text: {
-        ar: "لكنها اسنان شبه اسنان الاسود فحدتها , ودروعها وصوت اجنحتها اشارة المفزع لشدة عنف وانتشار الجراد",
-        en: "but their teeth will be as sharp as lions' teeth, and their armor and the sound of their wings are a terrifying sign of the ferocity and spread of the locusts,",
-      },
-    },
-    {
-      speaker: "angel",
-      speakerLabel: angelLabel("الملاك الخامس", "The Fifth Angel"),
-      text: {
-        ar: "وهتعذب البشر لمدة خمس شهور وملكها اسمه أبدون او ابولين اللي معناه المخرب او المهلك ,",
-        en: "and they will torment people for five months, and their king's name is Abaddon, or Apollyon, meaning the Destroyer,",
-      },
-    },
-    {
-      speaker: "angel",
-      speakerLabel: angelLabel("الملاك الخامس", "The Fifth Angel"),
-      text: {
-        ar: "ورغم كل اللي اتقال عن البوق ده ,بنشوف برضه حنان ورحمة ربنا فهو مسمحش بهلاك الخليقة كلها ,",
-        en: "and despite everything said about this trumpet, we still see God's tenderness and mercy — He does not allow the whole of creation to be destroyed,",
-      },
-    },
-    {
-      speaker: "angel",
-      speakerLabel: angelLabel("الملاك الخامس", "The Fifth Angel"),
-      text: {
-        ar: "وده ظهر بردو فحنانه علي الضعفاة ,بيحفظ اللي فبداية الايمان ويعتني بالنفوس الضعيفة اللي محتاجه حنانه ورحمته اكتر",
-        en: "and this also shows in His tenderness toward the weak — He protects those still at the beginning of their faith, and cares for the weaker souls who need His tenderness and mercy more,",
-      },
-    },
-    {
+      // Merged: the entire closing monologue is now one continuous beat
+      // (previously split into seven short turns).
       speaker: "angel",
       speakerLabel: angelLabel("الملاك الخامس", "The Fifth Angel"),
       cue: "watch",
       text: {
-        ar: "مهما كان اللي شوفته في البوق ده مش هيكون حاجة فصاد اللي جاي , سلام",
-        en: "whatever you've seen in this trumpet won't compare to what's coming next. Peace.",
+        ar:
+          "في بعض التفاسير سقوط الكوكب ده اشارة لانتكاسة هتحصل لشخصية دينية مركزها كبير , و ده اللي هيفتح بئر الجحيم وهيملى العالم بدخان الشياطين اللي هي افكارهم , " +
+          "وهيخرج الجراد المخرب وعشان تفهمي خطورة الجراد انه اتشبه الاحصنة المجهزة للحرب وهيكون بوجه بشر , والاكاليل هتبقى اشارة للسلطان اللي هيكون عند الجراد ده , " +
+          "هتكون شكلها جميل وعندها شعر زي شعر النساء , لكن عندها اسنان شبه اسنان الاسود فحدتها , ودروعها وصوت اجنحتها المفزع اشارة لشده عنف وانتشار الجراد " +
+          "وهتعذب البشر لمدة خمس شهور وملكها اسمه أبدون او ابولين اللي معناه المخرب او المهلك , ورغم كل اللي اتقال عن البوق ده ,بنشوف برضه حنان ورحمة ربنا , " +
+          "فهو مسمحش بهلاك الخليقة كلها ,وده ظهر بردو فحنانه علي الضعفاة , بيحفظ اللي فبداية الايمان وبيعتني بالنفوس الضعيفة اللي محتاجه حنانه ورحمته اكتر " +
+          "مهما كان اللي شوفته في البوق ده مش هيكون حاجة قصاد اللي جاي , سلام",
+        en:
+          "In some interpretations, this star's fall is a sign of a downfall that will happen to a major religious figure, and it's what opens the pit of the abyss and fills the world with the smoke of demons, which are their ideas, " +
+          "and out come the destroying locusts. So you understand the danger of the locusts — they're shaped like horses prepared for war, and they'll have the face of a man; the crowns are a sign of the power these locusts hold, " +
+          "their shape will be beautiful, and they'll have hair like the hair of women, but their teeth will be as sharp as lions' teeth, and their armor and the terrifying sound of their wings are a sign of the ferocity and spread of the locusts, " +
+          "and they will torment people for five months, and their king's name is Abaddon, or Apollyon, meaning the Destroyer, and despite everything said about this trumpet, we still see God's tenderness and mercy, " +
+          "for He does not allow the whole of creation to be destroyed — and this also shows in His tenderness toward the weak: He protects those still at the beginning of their faith, and cares for the weaker souls who need His tenderness and mercy more, " +
+          "whatever you've seen in this trumpet won't compare to what's coming next. Peace.",
       },
     },
   ],
@@ -433,14 +363,14 @@ const trumpet6: TrumpetScript = {
       speaker: "angel",
       speakerLabel: angelLabel("الملاك السادس", "The Sixth Angel"),
       text: {
-        ar: "ازاي عديتي من كل اللي فات ده ومش عارفة مين دول , علي عموم انا مستني صوت واحد وهفكهم وساعتها هتعرفي هتعملوا ايه",
+        ar: "ازاي عديتي من كل اللي فات ده ومش عارفة مين دول , علي عموم انا مستني صوت واحد وهفكهم وساعتها هتعرفي هيعملوا ايه",
         en: "How did you get through everything so far and not know who these are? Anyway, I'm waiting for one sound, and then I'll release them — you'll find out then what they'll do.",
       },
     },
     {
       speaker: "girl",
       text: {
-        ar: "اهه اعتقد فهمت , دول الاريع ملايئكة المجهزين لقتل تلت الناس , صح ؟ وعلي حسب علمي مش هيكونوا لوحديهم ,هيكون في جيوش فرسان تجهيزها مرعب وعددها مهوول",
+        ar: "اهه اعتقد فهمت , دول الاربع ملائكة المجهزين لقتل تلت الناس , صح ؟ وعلي حسب علمي مش هيكونوا لوحديهم ,هيكون في جيوش فرسان تجهيزها مرعب وعددها مهوول",
         en: "Ah, I think I understand — these are the four angels prepared to kill a third of mankind, right? And as far as I know, they won't be alone — there will be an army of horsemen, terrifyingly equipped and vast in number.",
       },
     },
@@ -449,66 +379,32 @@ const trumpet6: TrumpetScript = {
       speakerLabel: angelLabel("الملاك السادس", "The Sixth Angel"),
       cue: "watch",
       text: {
-        ar: "انا كنت لسة هصدق انك مش عارفة فعلا , بس طلعتي ذكية زي ما سمعت اللي انا مستنيه عشان اضرب البوق هو صوت اربعة قرون مذبح الذهب وبعد ما اسمعه هفك الملائكة دي اللي اتجهزت للحظة دي , وفعلا زي ما قولتي هيكون في جيوش فرسان معاهم جيش فرسان عدده متين مليون , وتجهيز الجيش ده",
-        en: "I was about to believe you really didn't know — but you turned out to be sharp. Like you heard, what I'm waiting for to sound my trumpet is the voice of the four horns of the golden altar, and once I hear it, I'll release these angels who were prepared for this very moment. And just as you said, there will be an army of horsemen — two hundred million strong. As for their equipment —",
+        ar:
+          "انا كنت لسة هصدق انك مش عارفة فعلا , بس طلعتي ذكية زي ما سمعت , الصوت اللي انا مستنيه عشان اضرب البوق هو صوت اربعة قرون مذبح الذهب " +
+          "وبعد ما اسمعه هفك الملائكة دي اللي اتجهزت للحظة دي , وفعلا زي ما قولتي مش لوحدهم هيكون معاهم جيش فرسان عدده متين مليون , وتجهيز الجيش ده كان قوي و محتاجين نقراه",
+        en:
+          "I was about to believe you really didn't know — but you turned out to be sharp, just like I heard. The sound I'm waiting for to sound my trumpet is the voice of the four horns of the golden altar, " +
+          "and once I hear it, I'll release these angels who were prepared for this very moment. And just as you said, they won't be alone — there will be an army of horsemen with them, two hundred million strong, and their equipment was so striking, we need to read about it.",
       },
     },
   ],
   closing: [
     {
+      // Merged: the armor/heads/fire/tails description is now one continuous beat
+      // (previously split into five short turns).
       speaker: "angel",
       speakerLabel: angelLabel("الملاك السادس", "The Sixth Angel"),
       text: {
-        ar: "جلوس الفرسان علي الخيول علامة استعداد تام للحرب , ودروع نارية اشارة بأنها حرب حارقة بلا رحمة",
-        en: "The horsemen sitting on their horses is a sign of total readiness for war, and fiery armor is a sign it will be a burning war without mercy,",
-      },
-    },
-    {
-      speaker: "angel",
-      speakerLabel: angelLabel("الملاك السادس", "The Sixth Angel"),
-      text: {
-        ar: "واسمانجونية دي شكل الدروع اللي هتبقلى قريبة لشكل دروع سماوية وهي بسماح من الله وكبريتية اشارة للغضب الإلهي,",
-        en: "hyacinth-colored armor resembles heavenly armor and comes by God's permission, and sulfur-colored armor is a sign of divine wrath,",
-      },
-    },
-    {
-      speaker: "angel",
-      speakerLabel: angelLabel("الملاك السادس", "The Sixth Angel"),
-      text: {
-        ar: "وحصلت قبل كدة فحرق سدوم وعمورة وكان بنار وكبريت ,",
-        en: "and this happened before, in the burning of Sodom and Gomorrah, which was by fire and sulfur,",
-      },
-    },
-    {
-      speaker: "angel",
-      speakerLabel: angelLabel("الملاك السادس", "The Sixth Angel"),
-      text: {
-        ar: "ورؤوس الخيل شكل رؤوس اسود في منظر اكتر رعبا وفتكا وافتراس من ان شكل الرؤوس يكون علي شكل رؤوس خيول عادية ,",
-        en: "and the horses' heads are shaped like lions' heads — a far more terrifying, deadly, and predatory sight than if they simply looked like ordinary horses' heads,",
-      },
-    },
-    {
-      speaker: "angel",
-      speakerLabel: angelLabel("الملاك السادس", "The Sixth Angel"),
-      text: {
-        ar: "وهتطلع من بوقها نار وكبريت ودخان المراد منها الحرق و التدمير والتبديد ,",
-        en: "and from their mouths come fire, sulfur, and smoke, meant for burning, destruction, and devastation,",
-      },
-    },
-    {
-      speaker: "angel",
-      speakerLabel: angelLabel("الملاك السادس", "The Sixth Angel"),
-      text: {
-        ar: "وسلطانهم هيكون فكلامهم اللي يبان جميل لكنه كذاب و والاذناب اللي هي ديولهم هتكون شبه الحيات اللي عرفت",
-        en: "and their power will be in words that seem beautiful but are false, and their tails, which are like their tails, will be like serpents that you already know",
-      },
-    },
-    {
-      speaker: "angel",
-      speakerLabel: angelLabel("الملاك السادس", "The Sixth Angel"),
-      text: {
-        ar: "تضيع من الانسان الاول كل اللي ليه بمكرها",
-        en: "cause a person to lose, through their cunning, everything they have.",
+        ar:
+          "جلوس الفرسان علي الخيول علامة استعداد تام للحرب , ودروع نارية اشارة بأنها حرب حارقة بلا رحمة واسمانجونية دي شكل الدروع اللي هتبقى قريبة لشكل دروع سماوية " +
+          "وهي بسماح من الله وكبريتية اشارة للغضب الإلهي,وحصلت قبل كدة فحرق سدوم وعمورة وكانت بنار وكبريت , ورؤوس الخيل علي شكل رؤوس اسود في منظر اكتر رعبا وفتكا وافتراس " +
+          "من ان شكل الرؤوس يكون علي شكل رؤوس خيول عادية , وهتطلع من بوقها نار وكبريت ودخان المراد منها الحرق و التدمير والتبديد , وسلطانهم هيكون فكلامهم اللي يبان جميل " +
+          "لكنه كذاب و والاذناب اللي هي ديولهم هتكون شبه الحيات اللي عرفت تضيع من الانسان الاول كل اللي ليه بمكرها",
+        en:
+          "The horsemen sitting on their horses is a sign of total readiness for war, and fiery armor is a sign it will be a burning war without mercy. Hyacinth-colored armor resembles heavenly armor and comes by God's permission, " +
+          "and sulfur-colored armor is a sign of divine wrath — and this happened before, in the burning of Sodom and Gomorrah, which was by fire and sulfur. The horses' heads are shaped like lions' heads — a far more terrifying, " +
+          "deadly, and predatory sight than if they simply looked like ordinary horses' heads, and from their mouths come fire, sulfur, and smoke, meant for burning, destruction, and devastation. Their power will be in words that seem beautiful " +
+          "but are false, and their tails will be like serpents you already know — able to make a person lose everything they have through their cunning.",
       },
     },
     {
@@ -519,28 +415,17 @@ const trumpet6: TrumpetScript = {
       },
     },
     {
-      speaker: "angel",
-      speakerLabel: angelLabel("الملاك السادس", "The Sixth Angel"),
-      text: {
-        ar: "فالحقيقة لا , مبطلوش اي حاجة من اللي كانوا بيعملوها سواء كانت عباد اصنام و ولا عن الزني ولا السحر ولا اي حاجة من اللي بيعملوها,",
-        en: "The truth is, no — they didn't stop any of what they were doing, whether idol worship, sexual immorality, sorcery, or anything else they practiced,",
-      },
-    },
-    {
-      speaker: "angel",
-      speakerLabel: angelLabel("الملاك السادس", "The Sixth Angel"),
-      text: {
-        ar: "متعظوش وده كان اكبر غلط والبوق اللي هينهي كل الفرص مبقاش بعيد زي مكانوا متخيلين ,",
-        en: "they didn't repent, and that was the biggest mistake — and the trumpet that ends every chance is no longer as far off as they imagined,",
-      },
-    },
-    {
+      // Merged: combines the closing three turns into one continuous beat.
       speaker: "angel",
       speakerLabel: angelLabel("الملاك السادس", "The Sixth Angel"),
       cue: "watch",
       text: {
-        ar: "الطريق المرادي محتاج تركيز علي غير العادة ,فتحي عنيكي وخليكي جاهزة ,مع السلامة !",
-        en: "the road ahead needs unusual focus. Open your eyes and be ready — take care!",
+        ar:
+          "فالحقيقة لا , مبطلوش اي حاجة من اللي كانوا بيعملوها سواء كانت عباد اصنام و ولا عن الزنى ولا السحر ولا اي حاجة من اللي بيعملوها, " +
+          "متعظوش وده كان اكبر غلط والبوق اللي هينهي كل الفرص مبقاش بعيد زي مكانوا متخيلين , الطريق المرادي محتاج تركيز علي غير العادة ,فتحي عنيكي وخليكي جاهزة ,مع السلامة !",
+        en:
+          "The truth is, no — they didn't stop any of what they were doing, whether idol worship, sexual immorality, sorcery, or anything else they practiced, " +
+          "they didn't repent, and that was the biggest mistake — and the trumpet that ends every chance is no longer as far off as they imagined, the road ahead needs unusual focus. Open your eyes and be ready — take care!",
       },
     },
   ],
@@ -551,22 +436,18 @@ const trumpet6: TrumpetScript = {
 // ---------------------------------------------------------------------
 const trumpet7: TrumpetScript = {
   intro: [
-    { speaker: "narrator", text: { ar: "يدخل الباب السابع", en: "She enters the seventh door." } },
     {
-      speaker: "angel",
-      speakerLabel: angelLabel("الملاك السابع", "The Seventh Angel"),
-      text: {
-        ar: "ست ابواق وعلامتها مرعبة , بس الانسان ده غريب جدا , بعد كل اللي حصل حواليه وكل اللي شافه,متعظش و كمل حياته كأن مفيش حاجة حصلت ,",
-        en: "Six trumpets, and their signs are terrifying — but humanity is a strange thing. After everything that happened around them, everything they saw, they didn't repent, and just went on with their lives as if nothing had happened,",
-      },
-    },
-    {
+      // Merged: combines the two intro turns into one continuous beat.
       speaker: "angel",
       speakerLabel: angelLabel("الملاك السابع", "The Seventh Angel"),
       cue: "watch",
       text: {
-        ar: "بس مفيش خلاص مفيش مجال للرجوع , بوقي فيه اهم اعلان مُلك حصل , بعد نفخ بوقي هتحصل اصوات عظيمة في السما وهتقول.",
-        en: "but there is no escape, no room left to turn back. My trumpet carries the most important announcement of a kingdom that has come to pass. After my trumpet sounds, great voices will be heard in heaven, saying —",
+        ar:
+          "ست ابواق وعلامتها مرعبة , بس الانسان ده غريب جدا , بعد كل اللي حصل حواليه وكل اللي شافه,متعظش و كمل حياته كأن مفيش حاجة حصلت , " +
+          "بس خلاص مفيش مجال للرجوع , بوقي فيه اهم اعلان مٌلك حصل , بعد نفخ بوقي هتحصل اصوات عظيمة في السما وهتقول.",
+        en:
+          "Six trumpets, and their signs are terrifying — but humanity is a strange thing. After everything that happened around them, everything they saw, they didn't repent, and just went on with their lives as if nothing had happened, " +
+          "but there is no escape, no room left to turn back. My trumpet carries the most important announcement of a kingdom that has come to pass. After my trumpet sounds, great voices will be heard in heaven, saying —",
       },
     },
   ],
@@ -580,24 +461,22 @@ const trumpet7: TrumpetScript = {
       },
     },
     {
+      // Merged: combines the thanksgiving-hymn and ark-of-the-covenant turns into one continuous beat.
       speaker: "angel",
       speakerLabel: angelLabel("الملاك السابع", "The Seventh Angel"),
       text: {
-        ar: "قدموا التسبحة الجميلة دي لله شكراً علي اللي عمله في القصاص من مملكة الشر واثبت انها غير صحيحة ونشر العالم للإيمان واعلان قدرته اللانهائية في صنع وتدبير العالم ,",
-        en: "They offered this beautiful hymn to God, thanking Him for what He did in bringing justice on the kingdom of evil and proving it false, for the world turning to faith, and for the declaration of His infinite power in creating and governing the world,",
+        ar:
+          "قدموا التسبحة الجميلة دي لله شكرآ علي اللي عمله في القصاص من مملكة الشر واثبت انها غير صحيحة ونشر مٌلكه , ورجوع العالم للإيمان واعلان قدرته اللانهائية في صنع وتدبير العالم , " +
+          "ولان مش كل النهايات سعيدة , البوق بينتهي بظهور تابوت العهد وظهور علامات تأديبية",
+        en:
+          "They offered this beautiful hymn to God, thanking Him for what He did in bringing justice on the kingdom of evil and proving it false, and for spreading His reign, for the world turning to faith, and for the declaration of His infinite power in creating and governing the world, " +
+          "and because not every ending is a happy one, the trumpet closes with the appearing of the Ark of the Covenant and the appearing of signs of discipline —",
       },
     },
     {
       speaker: "angel",
       speakerLabel: angelLabel("الملاك السابع", "The Seventh Angel"),
-      text: {
-        ar: "ولان مش كل النهايات سعيدة , البوق بينتهي بظهور عهد اتابوت وظهور علامات تأديبية",
-        en: "and because not every ending is a happy one, the trumpet closes with the appearing of the ark of the covenant and the appearing of signs of discipline —",
-      },
-    },
-    {
-      speaker: "angel",
-      speakerLabel: angelLabel("الملاك السابع", "The Seventh Angel"),
+      cue: "watch",
       text: {
         ar: "دي مظاهر مرتبطه بعظمة و جلال الله و هيبته و بتعلن ان حدثا عظيما بيتم امام حضرته",
         en: "these are signs tied to the greatness, majesty, and awe of God, declaring that a great event is taking place before His presence.",

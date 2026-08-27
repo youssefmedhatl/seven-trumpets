@@ -2,14 +2,20 @@ import type { TrumpetData, DialogueLine } from "./types";
 
 const introDialogue: DialogueLine[] = [
   { speaker: "girl", text: { en: "Six trumpets already.", ar: "ستة أبواق بالفعل." } },
-  { speaker: "narrator", text: { en: "And the sixth brings another great vision.", ar: "والسادس يحمل رؤيا عظيمة أخرى." } },
+  {
+    speaker: "narrator",
+    text: { en: "And the sixth brings another great vision.", ar: "والسادس يحمل رؤيا عظيمة أخرى." },
+  },
   { speaker: "girl", text: { en: "What should I look for?", ar: "ما الذي يجب أن أبحث عنه؟" } },
   { speaker: "narrator", text: { en: "Listen first. Then watch.", ar: "استمع أولاً. ثم راقب." } },
 ];
 
 const closingDialogue: DialogueLine[] = [
   { speaker: "girl", text: { en: "Horses...", ar: "خيول..." } },
-  { speaker: "narrator", text: { en: "Look closely at the description.", ar: "انظر بتمعّن إلى الوصف." } },
+  {
+    speaker: "narrator",
+    text: { en: "Look closely at the description.", ar: "انظر بتمعّن إلى الوصف." },
+  },
 ];
 
 /** TEMPORARY PLACEHOLDER content — pending verified Coptic Reader text. Reference: Revelation 9:13-21 */
@@ -19,17 +25,18 @@ const trumpet6: TrumpetData = {
   index: 6,
   title: { en: "The Sixth Trumpet", ar: "البوق السادس" },
   shortLabel: { en: "The Four Angels Loosed", ar: "الملائكة الأربعة المُطلَقون" },
-  scriptureRef: { en: "Revelation 9:13-21", ar: "رؤيا ٩: ١٣-٢١" },
-  scriptureIsTemporary: true,
+  scriptureRef: { en: "Revelation 9:17-18", ar: "رؤيا ٩: ١٧-١٨" },
+  scriptureIsTemporary: false,
   scriptureText: {
     en:
-      "[TEMPORARY PLACEHOLDER — pending verified Coptic Reader text] " +
-      "The sixth angel sounded... Loose the four angels which are bound in the great river Euphrates. " +
-      "And the four angels were loosed, which were prepared for an hour, and a day, and a month, and " +
-      "a year, for to slay the third part of men.",
+      "And thus I saw the horses in the vision, and them that sat on them, having breastplates of fire, " +
+      "and of jacinth, and brimstone: and the heads of the horses were as the heads of lions; and out of " +
+      "their mouths issued fire and smoke and brimstone. By these three was the third part of men killed, " +
+      "by the fire, and by the smoke, and by the brimstone, which issued out of their mouths.",
     ar:
-      "[نص مؤقت — بانتظار التحقق] والملاك السادس بوّق... حُلّ الملائكة الأربعة المقيدين عند النهر الكبير الفرات. " +
-      "فانحلّ الملائكة الأربعة المُعَدّون لساعة ويوم وشهر وسنة، لكي يقتلوا ثلث الناس.",
+      "وَهَكَذَا رَأَيْتُ الْخَيْلَ فِي الرُّؤْيَا، وَالْجَالِسِينَ عَلَيْهَا، لَهُمْ دُرُوعٌ نَارِيَّةٌ وَأَسْمَانْجُونِيَّةٌ وَكِبْرِيتِيَّةٌ، " +
+      "وَرُؤُوسُ الْخَيْلِ كَرُؤُوسِ الأُسُودِ، وَمِنْ أَفْوَاهِهَا يَخْرُجُ نَارٌ وَدُخَانٌ وَكِبْرِيتٌ. مِنْ هَذِهِ الثَّلاَثَةِ قُتِلَ ثُلْثُ النَّاسِ، " +
+      "مِنَ النَّارِ وَالدُّخَانِ وَالْكِبْرِيتِ الْخَارِجَةِ مِنْ أَفْوَاهِهَا.",
   },
   narration: {
     en:
