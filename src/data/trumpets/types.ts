@@ -33,7 +33,7 @@ export interface DialogueLine {
   cue?: "watch";
   /**
    * Recorded voiceover clip(s) for this line, relative to /public, e.g.
-   * ["/audio/doors/door1-angel.wav"]. Several consecutive script lines are
+   * ["/audio/doors/door1-angel.m4a"]. Several consecutive script lines are
    * often merged into one turn to match a single continuous recording — if
    * a turn needed two takes back-to-back, list both files in order and they
    * play sequentially as one clip. Omit when no recording exists yet; the

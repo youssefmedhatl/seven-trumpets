@@ -34,10 +34,10 @@ const angelLabel = (ar: string, en: string) => ({ ar, en });
 
 export const openingScript: DialogueLine[] = [
   {
-    // Merged: one continuous recording (opening-narrator.wav) covers the
+    // Merged: one continuous recording (opening-narrator.m4a) covers the
     // whole opening monologue, so it's shown as a single turn in sync with it.
     speaker: "narrator",
-    audioSrc: ["/audio/doors/opening-narrator.wav"],
+    audioSrc: ["/audio/doors/opening-narrator.m4a"],
     text: {
       ar:
         "كل اللي هتشوفه او هتسمعه هنا مرتبط بحدث واحد , حدث لسة مبدأش بس مكتوب من زمن بعيد جدا , " +
@@ -63,12 +63,12 @@ export const openingScript: DialogueLine[] = [
 const trumpet1: TrumpetScript = {
   intro: [
     {
-      // Merged: one continuous recording (door1-angel.wav) covers this
+      // Merged: one continuous recording (door1-angel.m4a) covers this
       // whole speech, so it plays as a single turn in sync with the clip.
       speaker: "angel",
       speakerLabel: angelLabel("الملاك الأول", "The First Angel"),
       cue: "watch",
-      audioSrc: ["/audio/doors/door1-angel.wav"],
+      audioSrc: ["/audio/doors/door1-angel.m4a"],
       text: {
         ar:
           "بوقي مش بيجي منغير اثر, اللي كان اخضر اتحرق , حاجتين ميتجمعوش اتحولوا مع بعض لهجوم قاسي , طبعا مش فاهم , " +
@@ -98,11 +98,11 @@ const trumpet1: TrumpetScript = {
 const trumpet2: TrumpetScript = {
   intro: [
     {
-      // Merged: door2-angel-part1.wav covers this pair, up to where the
+      // Merged: door2-angel-part1.m4a covers this pair, up to where the
       // girl interrupts.
       speaker: "angel",
       speakerLabel: angelLabel("الملاك الثاني", "The Second Angel"),
-      audioSrc: ["/audio/doors/door2-angel-part1.wav"],
+      audioSrc: ["/audio/doors/door2-angel-part1.m4a"],
       text: {
         ar:
           "البوق ده مش جاي بنار من الارض زي البوق الاول,شئ عظيم مولع بالنار اتدمر ووقع في البحر واخل بالبحر وبكل حاجة فيه , " +
@@ -120,11 +120,11 @@ const trumpet2: TrumpetScript = {
       },
     },
     {
-      // Merged: door2-angel-part2.wav picks up from here to the end of the door.
+      // Merged: door2-angel-part2.m4a picks up from here to the end of the door.
       speaker: "angel",
       speakerLabel: angelLabel("الملاك الثاني", "The Second Angel"),
       cue: "watch",
-      audioSrc: ["/audio/doors/door2-angel-part2.wav"],
+      audioSrc: ["/audio/doors/door2-angel-part2.m4a"],
       text: {
         ar:
           "حقيقي ابهرتيني , شكلك شخصية ذكية , " +
@@ -149,10 +149,10 @@ const trumpet3: TrumpetScript = {
   intro: [
     { speaker: "girl", text: { ar: "في حد هنا ؟", en: "Is anyone here?" } },
     {
-      // door3-angel-part1.wav
+      // door3-angel-part1.m4a
       speaker: "angel",
       speakerLabel: angelLabel("الملاك الثالث", "The Third Angel"),
-      audioSrc: ["/audio/doors/door3-angel-part1.wav"],
+      audioSrc: ["/audio/doors/door3-angel-part1.m4a"],
       text: {
         ar: "انتي مين ؟ وقدرتي تدخلي بابي ازاي؟",
         en: "Who are you? And how did you manage to get through my door?",
@@ -166,10 +166,10 @@ const trumpet3: TrumpetScript = {
       },
     },
     {
-      // door3-angel-part2.wav
+      // door3-angel-part2.m4a
       speaker: "angel",
       speakerLabel: angelLabel("الملاك الثالث", "The Third Angel"),
-      audioSrc: ["/audio/doors/door3-angel-part2.wav"],
+      audioSrc: ["/audio/doors/door3-angel-part2.m4a"],
       text: {
         ar: "واضح انك ذكية عشان تعدي دول , بس كل دول مش زي بوقي , شئ عظيم مضئ اسمه الافسنتين, لوث المياه وموت ناس كتير اوي",
         en: "Clearly you're clever to have gotten past those — but none of that compares to my trumpet. Something great and shining, called Wormwood, polluted the waters and killed a great many people.",
@@ -180,11 +180,11 @@ const trumpet3: TrumpetScript = {
       text: { ar: "مش الافسنتين ده نبات مر ؟", en: "Isn't Wormwood a bitter plant?" },
     },
     {
-      // door3-angel-part3.wav
+      // door3-angel-part3.m4a
       speaker: "angel",
       speakerLabel: angelLabel("الملاك الثالث", "The Third Angel"),
       cue: "watch",
-      audioSrc: ["/audio/doors/door3-angel-part3.wav"],
+      audioSrc: ["/audio/doors/door3-angel-part3.m4a"],
       text: {
         ar: "واضح انك ذكية فعلا , اه الافسنتين نبات مر , بس عشان نفهم ايه المقصود بيه محتاجين نقرأ رؤيا 8 عدد 10 و11",
         en: "You really are clever — yes, Wormwood is a bitter plant. But to understand what's meant by it, we need to read Revelation chapter 8, verses 10 and 11.",
@@ -193,10 +193,10 @@ const trumpet3: TrumpetScript = {
   ],
   closing: [
     {
-      // Merged: door3-angel-part4.wav covers this pair.
+      // Merged: door3-angel-part4.m4a covers this pair.
       speaker: "angel",
       speakerLabel: angelLabel("الملاك الثالث", "The Third Angel"),
-      audioSrc: ["/audio/doors/door3-angel-part4.wav"],
+      audioSrc: ["/audio/doors/door3-angel-part4.m4a"],
       text: {
         ar:
           "وقوع الكوكب ده اشارة للتأديب المر والكوكب نفسه اشارة لشخصيات دينية كتير هيسقطوا ويحاولوا يفسدوا التعليم زي أريوس ونسطور فهيسمموا الانهار ويمرروها وهتموت ناس كتير اوي , " +
@@ -208,11 +208,11 @@ const trumpet3: TrumpetScript = {
     },
     { speaker: "girl", text: { ar: "لا تمام كدة, شكرا", en: "No, that's clear. Thank you." } },
     {
-      // door3-angel-part5.wav
+      // door3-angel-part5.m4a
       speaker: "angel",
       speakerLabel: angelLabel("الملاك الثالث", "The Third Angel"),
       cue: "watch",
-      audioSrc: ["/audio/doors/door3-angel-part5.wav"],
+      audioSrc: ["/audio/doors/door3-angel-part5.m4a"],
       text: {
         ar: "المفتاح الرابع اهو , يلا اتفضل من هنا",
         en: "Here's the fourth key. Go ahead, this way.",

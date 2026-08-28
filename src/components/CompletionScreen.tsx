@@ -90,7 +90,7 @@ export default function CompletionScreen() {
           <VoicePlayButton
             text={t("closingMonologue")}
             lang={lang}
-            audioSrc={["/audio/doors/ending.wav"]}
+            audioSrc={["/audio/doors/ending.m4a"]}
             tone="var(--gold-300)"
             size={40}
           />
