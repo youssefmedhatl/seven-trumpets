@@ -1,0 +1,25 @@
+name: Temporary Asset Recovery
+on:
+  push:
+    branches: [asset-recovery-20260828]
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout pristine commit
+        uses: actions/checkout@v4
+        with:
+          ref: 65a87b94b989a665581928b0b4f0cad988758fdf
+
+      - name: Package pristine videos
+        run: |
+          mkdir -p recovered-videos
+          cp public/videos/*.mp4 recovered-videos/
+
+      - name: Upload recovered videos
+        uses: actions/upload-artifact@v4
+        with:
+          name: pristine-seven-trumpets-videos
+          path: recovered-videos/
+          retention-days: 1
